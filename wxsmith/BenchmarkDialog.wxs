@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="BenchmarkDialog">
+		<title>Run Benchmark</title>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+								<cols>2</cols>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+										<label>Benchmark Length (No. of steps)</label>
+									</object>
+									<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="LengthTextCtrl" member="yes">
+										<value>100000</value>
+										<focused>1</focused>
+									</object>
+									<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+										<label>No Refresh</label>
+									</object>
+									<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxCheckBox" name="ID_CHECKBOX1" variable="CheckBox1" member="yes">
+										<checked>1</checked>
+									</object>
+									<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+							<border>5</border>
+						</object>
+						<object class="sizeritem">
+							<object class="wxFlexGridSizer" variable="FlexGridSizer2" member="no">
+								<cols>3</cols>
+								<object class="sizeritem">
+									<object class="wxButton" name="wxID_OK" variable="Button1" member="yes">
+										<label>Go</label>
+										<handler function="OnButton1Click" entry="EVT_BUTTON" />
+									</object>
+									<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxButton" name="wxID_CANCEL" variable="Button2" member="yes">
+										<label>Cancel</label>
+									</object>
+									<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

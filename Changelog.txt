@@ -1,0 +1,88 @@
+What's New in Orb v1.2.3
+20/1/12
+------------------------
+
+* Switched Coordinates from vectors to deques -> 12x improvement in performance
+* Bugfix for extended accuracy range and changing frame of reference
+* Ability to set custom zoom, which can be saved
+* Changed partial refresh behaviour
+* Added Cruithne.orb to samples
+
+What's New in Orb v1.2.2
+19/1/12
+-------------------------
+
+* Bug fix for "New Planet" interface: Previous versions mixed up vY and vZ parameters.
+* Added capability to import data directly from NASA HORIZONS ephemerides service.
+* Extended accuracy range.
+* Updated sample files.
+
+What's New in Orb v1.2.1
+16/1/12
+-------------------------
+
+* Bug fix for Windows Vista/7: Changed default samples folder to C:\Users\%username%\AppData\Roaming\Orb\samples
+
+What's New in Orb v1.2.0
+12/1/12
+-------------------------
+
+* Added dialog to view more information about the planet
+-- Orbital period and number of years since beginning of simulation
+-- Current speed, distance from Centre of Mass, acceleration
+-- Calculate gravitational and potential energy
+
+What's to come:
+* Show data in graph format
+* Export data
+
+
+What's New in Orb v1.1.1
+8/1/12
+-------------------------
+
+* Added file associations to installer script
+* Enabled Orb to launch on opening a .orb file
+
+What's New in Orb v1.1.0
+20/12/11
+-------------------------
+
+* Added full changing of reference frame support:
+-- Origin can be: Original, Centre of Mass, Centred on Planet, Custom
+-- Origin can undergo uniform translational motion for Original and Custom settings
+-- Coordinate axes can rotate about origin, accepts orbital period and angular frequency input
+* Updated scaling function
+* Added advanced features:
+-- Advance a single step
+-- Partial screen refresh (beta - does not work as expected)
+
+Note: Please load and save files to update them to current .orb version
+
+What's New in Orb v1.0.2
+1/12/11
+-------------------------
+
+* Heavy optimization of code (35% speed improvement for calculations)
+* Added z coordinate
+* Benchmarking Feature
+* Ability to use black background
+* (Temporary removal of ability to use non-COM reference frame, still accessible through file load.)
+* Added Earth-Moon Lagrange Points to samples
+
+Note: Please load and save files to update them to current .orb version
+
+What's to come:
+* Switch origin to follow planet/custom coordinates/rotating frame
+* Dynamic rescaling based on longest orbital period
+* Information for planets
+
+
+-------------------------
+
+What's New in Orb v1.0.1
+24/11/11
+-------------------------
+
+* Minor Bugfixes
+* Added Inner Solar System and Solar System to samples

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="lib\BenchmarkDialog.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="252" topLine="0" />
+	</File>
+	<File name="lib\GraphPane.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1846" topLine="65" />
+	</File>
+	<File name="lib\ImportPlanetDialog.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="367" topLine="0" />
+	</File>
+	<File name="lib\NewPlanetDialog.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="302" topLine="0" />
+	</File>
+	<File name="lib\OrbApp.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="453" topLine="0" />
+	</File>
+	<File name="lib\OrbMain.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="9598" topLine="38" />
+	</File>
+	<File name="lib\Planet.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="253" topLine="0" />
+	</File>
+	<File name="lib\SolarSystem.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="704" topLine="24" />
+	</File>
+	<File name="lib\ViewInfoDialog.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="3304" topLine="15" />
+	</File>
+	<File name="lib\ZoomDialog.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="241" topLine="5" />
+	</File>
+	<File name="res\resource.rc" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="69" topLine="0" />
+	</File>
+	<File name="src\BenchmarkDialog.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="872" topLine="0" />
+	</File>
+	<File name="src\ChangeFrameDialog.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="11652" topLine="171" />
+	</File>
+	<File name="src\GraphPane.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="4822" topLine="201" />
+	</File>
+	<File name="src\ImportPlanetDialog.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="6810" topLine="112" />
+	</File>
+	<File name="src\NewPlanetDialog.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="12762" topLine="214" />
+	</File>
+	<File name="src\OrbApp.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1015" topLine="16" />
+	</File>
+	<File name="src\OrbMain.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="28994" topLine="1561" />
+	</File>
+	<File name="src\Planet.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="874" topLine="0" />
+	</File>
+	<File name="src\SolarSystem.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="333" topLine="0" />
+	</File>
+	<File name="src\ViewInfoDialog.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="20204" topLine="262" />
+	</File>
+	<File name="src\ZoomDialog.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="2854" topLine="25" />
+	</File>
+	<File name="wxsmith\HelpDialog.wxs" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor1 position="1036" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

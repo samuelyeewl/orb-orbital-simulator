@@ -1,0 +1,41 @@
+//////////////////////////////////////////////////////////
+//                 EARTH-MOON SYSTEM                    //
+// Data from JPL HORIZONS ephemeris computation service //
+//            Begins at J2000.00 epoch                  //
+//////////////////////////////////////////////////////////
+
+<System Settings>
+ReferenceFrame=1
+TranslatingOrigin=0
+Rotation=0
+Speed=71
+Accuracy=14
+TrailLength=57
+</System Settings>
+<Planet>
+PlanetName=Earth
+Colour=blue
+Size=3
+X=3.859636000000000e+006
+Y=2.939022000000000e+006
+Z=-4.441747000000000e+005
+vX=-6.813891000000000e+000
+vY=9.719646000000001e+000
+vZ=1.991881000000000e-002
+Mass=5.973600000000000e+024
+ID=1
+</Planet>
+<Planet>
+PlanetName=Moon
+Colour=light grey
+Size=2
+X=-3.137906083959072e+008
+Y=-2.389441469843328e+008
+Z=3.611165187105652e+007
+vX=5.539731583976927e+002
+vY=-7.902126253878560e+002
+vZ=-1.619410017346328e+000
+Mass=7.349000000000000e+022
+ID=2
+</Planet>
+END OF FILE

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="NewPlanetDialog">
+		<title>Create New Planet</title>
+		<focused>1</focused>
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+					<cols>2</cols>
+					<growablecols>1</growablecols>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+							<label>Name</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="NameTxtCtrl" member="yes">
+							<value>NewPlanet</value>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+							<label>Colour</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer8" member="no">
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE1" variable="ColourChoice" member="yes">
+									<content>
+										<item>Black</item>
+										<item>Red</item>
+										<item>Blue</item>
+										<item>Green</item>
+										<item>Custom</item>
+									</content>
+									<selection>0</selection>
+									<handler function="OnColourChoiceSelect" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT13" variable="StaticText13" member="yes">
+									<label>Size</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE2" variable="SizeChoice" member="yes">
+									<content>
+										<item>0</item>
+										<item>1</item>
+										<item>2</item>
+										<item>3</item>
+										<item>4</item>
+									</content>
+									<selection>0</selection>
+									<size>47,21</size>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxEXPAND|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+							<label>Initial X</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+							<object class="sizeritem">
+								<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="XTextCtrl" member="yes">
+									<value>200</value>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+								<border>5</border>
+								<option>2</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT7" variable="StaticText7" member="yes">
+									<label>x 10³ km</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+							<label>Initial Y</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+							<object class="sizeritem">
+								<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="YTextCtrl" member="yes">
+									<value>200</value>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+								<border>5</border>
+								<option>2</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT8" variable="StaticText8" member="yes">
+									<label>x 10³ km</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT14" variable="StaticText14" member="yes">
+							<label>Initial Z</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer9" member="no">
+							<object class="sizeritem">
+								<object class="wxTextCtrl" name="ID_TEXTCTRL7" variable="ZTextCtrl" member="yes">
+									<value>0</value>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+								<border>5</border>
+								<option>2</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT15" variable="StaticText15" member="yes">
+									<label>x 10³ km</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT5" variable="StaticText5" member="yes">
+							<label>Initial Vx</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+							<object class="sizeritem">
+								<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="VxTextCtrl" member="yes">
+									<value>1</value>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+								<border>5</border>
+								<option>2</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT9" variable="StaticText9" member="yes">
+									<label>km / s</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT6" variable="StaticText6" member="yes">
+							<label>Initial Vy</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer5" member="no">
+							<object class="sizeritem">
+								<object class="wxTextCtrl" name="ID_TEXTCTRL5" variable="VyTextCtrl" member="yes">
+									<value>1</value>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+								<border>5</border>
+								<option>2</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT10" variable="StaticText10" member="yes">
+									<label>km / s</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT16" variable="StaticText16" member="yes">
+							<label>Initial Vz</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer10" member="no">
+							<object class="sizeritem">
+								<object class="wxTextCtrl" name="ID_TEXTCTRL8" variable="VzTextCtrl" member="yes">
+									<value>0</value>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+								<border>5</border>
+								<option>2</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT17" variable="StaticText17" member="yes">
+									<label>km / s</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXT11" variable="StaticText11" member="yes">
+							<label>Mass</label>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer6" member="no">
+							<object class="sizeritem">
+								<object class="wxTextCtrl" name="ID_TEXTCTRL6" variable="MassTextCtrl" member="yes">
+									<value>700</value>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+								<border>5</border>
+								<option>2</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticText" name="ID_STATICTEXT12" variable="StaticText12" member="yes">
+									<label>x 10²º kg</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_LEFT|wxALIGN_TOP</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer7" member="no">
+					<object class="sizeritem">
+						<object class="wxButton" name="wxID_OK" variable="Button1" member="yes">
+							<label>OK</label>
+							<focused>1</focused>
+							<handler function="OnButton1Click" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxButton" name="wxID_CANCEL" variable="Button2" member="yes">
+							<label>Cancel</label>
+							<handler function="OnButton2Click" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+				<border>5</border>
+			</object>
+		</object>
+	</object>
+</wxsmith>

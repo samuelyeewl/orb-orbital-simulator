@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxPanel" name="GraphPane">
+		<size>500,500</size>
+		<bg>#FFFFFF</bg>
+		<minsize>500,500</minsize>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+	</object>
+</wxsmith>

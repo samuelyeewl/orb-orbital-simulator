@@ -1,0 +1,10 @@
+# Compiled Object Files
+*.o
+*.obj
+
+# Executables
+*.exe
+
+# Archives
+*.tar
+*.tar.gz

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="HelpDialog">
+		<title>About Orb</title>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<size>493,196</size>
+					<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+						<object class="sizeritem">
+							<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+								<size>278,300</size>
+								<style>wxNO_BORDER</style>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+								<orient>wxVERTICAL</orient>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+										<label>Orb: An Orbital Simulator</label>
+										<font>
+											<size>14</size>
+											<style>normal</style>
+											<weight>bold</weight>
+											<underlined>0</underlined>
+											<family>swiss</family>
+											<face>Arial Black</face>
+										</font>
+									</object>
+									<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+										<label>v 1.2&#x0A;Created by Samuel Yee</label>
+										<font>
+											<size>12</size>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<family>swiss</family>
+											<face>Arial</face>
+											<sysfont>wxSYS_OEM_FIXED_FONT</sysfont>
+										</font>
+										<style>wxALIGN_CENTRE</style>
+									</object>
+									<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+										<label>&#x0A;Icon based on Blue Marble and Expedition 10 Photographs by NASA.</label>
+									</object>
+									<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+								</object>
+								<object class="sizeritem">
+									<object class="wxButton" name="wxID_OK" variable="Button1" member="yes">
+										<label>OK</label>
+										<handler function="OnButton1Click" entry="EVT_BUTTON" />
+									</object>
+									<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+							<border>5</border>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_TOP</flag>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

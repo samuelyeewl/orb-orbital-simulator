@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="ZoomDialog">
+		<title>Custom Zoom Options</title>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+								<object class="sizeritem">
+									<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+										<label>Minimum Dimension &#x0A;of Displayed Area (AU)</label>
+									</object>
+									<flag>wxALL|wxALIGN_CENTER_VERTICAL</flag>
+									<border>5</border>
+									<option>2</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="ZoomTextCtrl" member="yes">
+										<value>1</value>
+										<size>57,21</size>
+									</object>
+									<flag>wxALL|wxALIGN_TOP|wxALIGN_BOTTOM</flag>
+									<border>5</border>
+									<option>2</option>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_TOP|wxALIGN_BOTTOM</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+						<object class="sizeritem">
+							<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+								<object class="sizeritem">
+									<object class="wxButton" name="wxID_OK" variable="Button1" member="yes">
+										<label>OK</label>
+										<focused>1</focused>
+										<handler function="OnButton1Click" entry="EVT_BUTTON" />
+									</object>
+									<flag>wxALL|wxALIGN_TOP|wxALIGN_BOTTOM</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+								<object class="sizeritem">
+									<object class="wxButton" name="wxID_CANCEL" variable="Button2" member="yes">
+										<label>Cancel</label>
+									</object>
+									<flag>wxALL|wxALIGN_TOP|wxALIGN_BOTTOM</flag>
+									<border>5</border>
+									<option>1</option>
+								</object>
+							</object>
+							<flag>wxALL|wxALIGN_TOP|wxALIGN_BOTTOM|wxALIGN_CENTER_HORIZONTAL</flag>
+							<border>5</border>
+							<option>1</option>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_TOP|wxALIGN_BOTTOM</flag>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>
